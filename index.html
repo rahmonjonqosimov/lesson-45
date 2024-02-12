@@ -5,20 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./dark/home.css" />
   </head>
   <body class="font-poppins md:pt-[82px] pt-[55px]">
     <header class="py-4 bg-white fixed top-0 left-0 right-0 z-10">
       <div class="container mx-auto px-5">
-        <nav class="md:flex justify-between items-center">
+        <nav class="lg:flex justify-between items-center">
           <div class="flex justify-between items-center">
             <a href="./index.html">
               <img src="./images/header logo.svg" alt="Logo" />
             </a>
-            <button id="btn-menu" class="md:hidden bg-bx-menu w-6 h-6"></button>
+            <button
+              id="btn-menu"
+              class="lg:hidden block bg-bx-menu w-6 h-6"
+            ></button>
           </div>
           <div
             id="nav-items"
-            class="md:bg-white bg-heroBg absolute md:static top-[53px] left-0 right-0 -translate-x-full md:translate-x-0 flex flex-col md:flex-row gap-5 lg:gap-10 items-center py-10 md:py-0 duration-500"
+            class="md:bg-white bg-heroBg absolute lg:static top-[53px] left-0 right-0 -translate-x-full lg:translate-x-0 flex flex-col lg:flex-row gap-5 lg:gap-10 items-center py-10 lg:py-0 duration-500"
           >
             <a href="./pages/about_us.html" class="font-bold text-[#394149]"
               >About Us</a
@@ -40,12 +44,654 @@
             >
               Clone project
             </button>
+            <button id="light-dark">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 11.807A9.002 9.002 0 0 1 
+                                 10.049 2a9.942 9.942 0 0 0-5.12 2.735c-3.905 3.905-3.905 
+                                 10.237 0 14.142 3.906 3.906 10.237 3.905 14.143 0a9.946 
+                                 9.946 0 0 0 2.735-5.119A9.003 9.003 0 0 1 12 11.807z"
+                ></path>
+              </svg>
+            </button>
           </div>
         </nav>
       </div>
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+      <section id="hero" class="bg-heroBg pb-[58px] lg:pb-0 pt-[58px]">
+        <div
+          class="container mx-auto px-5 justify-between flex gap-8 items-center flex-col-reverse lg:gap-0 lg:flex-row"
+        >
+          <div class="flex flex-col max-w-[576px]">
+            <h1
+              class="sm:text-[64px] xl:w-[576px] text-[36px] text-[#1D3444] text-center lg:text-start sm:leading-[72px] font-bold"
+            >
+              Prosper with our bespoke solutions
+            </h1>
+            <p
+              class="text-paragrph text-center lg:text-start sm:text-[18px] sm:leading-7 mt-5 lg:mt-12"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros elementum tristique
+            </p>
+            <div
+              class="flex items-center justify-center lg:justify-start sm:flex-row flex-col gap-3 mt-8"
+            >
+              <button
+                class="text-white text-[16px] font-bold bg-button hover:bg-transparent border-[1px] border-solid border-button hover:border-[#1D3444] hover:text-[#1D3444] duration-500 w-[200px] py-[18px] rounded-[27px]"
+              >
+                See our services
+              </button>
+              <button
+                class="text-#1D3444 text-[16px] font-bold bg-transparent hover:bg-button hover:text-white duration-500 w-[200px] py-[18px] rounded-[27px]"
+              >
+                See All Services
+              </button>
+            </div>
+            <h5
+              class="text-[18px] leading-7 text-center lg:text-start text-[#8B959F] mt-[30px] lg:mt-[50px] mb-[18px]"
+            >
+              Worked with 100+ Companies
+            </h5>
+            <div
+              class="flex items-center md:flex-row flex-col gap-6 md:gap-3 justify-between"
+            >
+              <img src="./images/home_images/hero logo 1.svg" alt="hero logo" />
+              <img src="./images/home_images/hero logo 2.svg" alt="hero logo" />
+              <img src="./images/home_images/hero logo 3.svg" alt="hero logo" />
+            </div>
+          </div>
+          <img
+            src="./images/home_images/hero im.png"
+            alt="Hero img"
+            class="xl:w-[750px] lg:mr-[-120px] ml-0"
+          />
+        </div>
+      </section>
+      <section id="help" class="py-[96px]">
+        <div class="container mx-auto px-5 flex flex-col">
+          <h2
+            class="max-w-[730px] font-bold md:leading-[56px] text-center md:text-start text-[30px] md:text-[48px] text-[#1D3444]"
+          >
+            We help more than 1500 companies from all sectors
+          </h2>
+          <p
+            class="max-w-[735px] text-[14px] text-paragrph text-center md:text-start sm:text-[18px] sm:leading-7 mt-[27px]"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+            sit amet eros blandit, hendrerit elit et, mattis purus. Vivamus
+            commodo suscipit tellus et pellentesque.
+          </p>
+          <div class="grid lg:grid-cols-3 grid-cols-1 gap-10 mt-[64px]">
+            <div
+              class="card rounded-[34px] hover:bg-heroBg duration-300 hover:shadow-2xl pb-8"
+            >
+              <img
+                src="./images/home_images/help-1.svg"
+                alt="img"
+                class="w-full"
+              />
+              <h4
+                class="text-[24px] text-center sm:text-start px-5 font-medium leading-6 mt-[33px]"
+              >
+                Business strategy
+              </h4>
+              <p
+                class="text-paragrph px-5 text-center sm:text-start text-[16px] leading-7 font-medium mt-[17px] mb-[24px]"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur sit amet eros blandit, hendrerit elit et,
+              </p>
+              <img
+                src="./images/home_images/Learn more.svg"
+                alt="lean more"
+                class="cursor-pointer px-5 mx-auto sm:mx-0"
+              />
+            </div>
+            <div
+              class="card rounded-[34px] hover:bg-heroBg duration-300 hover:shadow-2xl pb-8"
+            >
+              <img
+                src="./images/home_images/help-2.svg"
+                alt="img"
+                class="w-full"
+              />
+              <h4
+                class="text-[24px] text-center sm:text-start px-5 font-medium leading-6 mt-[33px]"
+              >
+                Digitalization
+              </h4>
+              <p
+                class="text-paragrph text-center sm:text-start px-5 text-[16px] leading-7 font-medium mt-[17px] mb-[24px]"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur sit amet eros blandit, hendrerit elit et,
+              </p>
+              <img
+                src="./images/home_images/Learn more.svg"
+                alt="lean more"
+                class="cursor-pointer px-5 mx-auto sm:mx-0"
+              />
+            </div>
+            <div
+              class="card rounded-[34px] hover:bg-heroBg duration-300 hover:shadow-2xl pb-8"
+            >
+              <img
+                src="./images/home_images/help-3.svg"
+                alt="img"
+                class="w-full"
+              />
+              <h4
+                class="text-[24px] text-center sm:text-start px-5 font-medium leading-6 mt-[33px]"
+              >
+                Risk assessment
+              </h4>
+              <p
+                class="text-paragrph text-center sm:text-start px-5 text-[16px] leading-7 font-medium mt-[17px] mb-[24px]"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur sit amet eros blandit, hendrerit elit et,
+              </p>
+              <img
+                src="./images/home_images/Learn more.svg"
+                alt="lean more"
+                class="cursor-pointer px-5 mx-auto sm:mx-0"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="feaures" class="py-[96px] bg-heroBg">
+        <div class="container mx-auto px-5 flex flex-col">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+            <h3
+              class="font-bold md:leading-[44px] text-center md:text-start text-[22px] md:text-[36px] text-[#1D3444]"
+            >
+              We are building software solution that solves your business
+              challenges
+            </h3>
+            <p
+              class="max-w-[735px] text-[14px] text-paragrph text-center md:text-start sm:text-[18px] sm:leading-7"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+              sit amet eros blandit, hendrerit elit et, mattis purus. Vivamus
+              commodo suscipit tellus et pellentesque.
+            </p>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-10 mt-[64px]">
+            <div
+              class="card flex flex-col p-10 duration-500 hover:shadow-2xl bg-white rounded-[20px]"
+            >
+              <img
+                src="./images/home_images/features-1.svg"
+                alt=""
+                class="w-[33px]"
+              />
+              <h4
+                class="text-[#0D1317] text-[24px] font-bold leading-6 mt-8 mb-4"
+              >
+                Invoicing
+              </h4>
+              <p class="text-[15px] font-semibold leading-7 text-paragrph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur sit amet eros blandit, hendrerit elit et,
+              </p>
+            </div>
+            <div
+              class="card flex flex-col p-10 duration-500 hover:shadow-2xl bg-white rounded-[20px]"
+            >
+              <img
+                src="./images/home_images/features-2.svg"
+                alt=""
+                class="w-[33px]"
+              />
+              <h4
+                class="text-[#0D1317] text-[24px] font-bold leading-6 mt-8 mb-4"
+              >
+                Support
+              </h4>
+              <p class="text-[15px] font-semibold leading-7 text-paragrph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur sit amet eros blandit, hendrerit elit et,
+              </p>
+            </div>
+            <div
+              class="card flex flex-col p-10 duration-500 hover:shadow-2xl bg-white rounded-[20px]"
+            >
+              <img
+                src="./images/home_images/features-3.svg"
+                alt=""
+                class="w-[33px]"
+              />
+              <h4
+                class="text-[#0D1317] text-[24px] font-bold leading-6 mt-8 mb-4"
+              >
+                Surveying
+              </h4>
+              <p class="text-[15px] font-semibold leading-7 text-paragrph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur sit amet eros blandit, hendrerit elit et,
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="pt-[100px] pb-[80px]">
+        <div
+          class="container mx-auto px-5 flex flex-col-reverse lg:flex-row items-center justify-between gap-10"
+        >
+          <div class="flex flex-col max-w-[586px]">
+            <h2
+              class="max-w-[730px] font-bold md:leading-[56px] text-center md:text-start text-[30px] md:text-[48px] text-[#1D3444]"
+            >
+              The energy of a start-up combined with 30 years of experience.
+            </h2>
+            <p
+              class="max-w-[735px] text-[14px] text-paragrph text-center md:text-start sm:text-[18px] sm:leading-7 mt-[32px]"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+              sit amet eros blandit, hendrerit elit et, mattis purus. Vivamus
+              commodo suscipit tellus et pellentesque.
+            </p>
+            <div class="flex gap-5 mt-[48px] md:flex-row flex-col items-center">
+              <div class="flex flex-col max-w-[264px]">
+                <h3 class="text-[#F58A07] text-[36px] font-extrabold">15+</h3>
+                <h4 class="text-[24px] font-bold leading-6 text-[#0D1317] my-4">
+                  Awards received
+                </h4>
+                <p class="text-paragrph text-[16px] font-semibold leading-7">
+                  Lorem ipsum dolor sit amet, consectetur adipiscin. Curabitur
+                  sit amet eros elit et.
+                </p>
+              </div>
+              <div class="flex flex-col max-w-[264px]">
+                <h3 class="text-[#F58A07] text-[36px] font-extrabold">500+</h3>
+                <h4 class="text-[24px] font-bold leading-6 text-[#0D1317] my-4">
+                  Clients served
+                </h4>
+                <p class="text-paragrph text-[16px] font-semibold leading-7">
+                  Lorem ipsum dolor sit amet, consectetur adipiscin. Curabitur
+                  sit amet eros elit et.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="relative">
+            <img src="./images/home_images/about-1.svg" alt="about img-1" />
+            <img
+              src="./images/home_images/about-circle.svg"
+              alt="circle"
+              class="absolute md:-top-[57px] md:-right-[58px] -top-[35px] hidden sm:block -right-[30px] md:w-[116px] w-[70px]"
+            />
+          </div>
+        </div>
+      </section>
+      <section id="service" class="pb-[128px]">
+        <div
+          class="container mx-auto bg-heroBg px-5 flex flex-col rounded-[20px] relative"
+        >
+          <div class="sm:px-[48px] py-[48px] sm:py-[48px]">
+            <div class="flex md:flex-row flex-col items-center gap-6">
+              <button
+                class="text-[#A8BCCC] btn bg-transparent border-solid font-bold border-[1px] hover:bg-white hover:text-[#F58A07] hover:border-white duration-500 border-[#A8BCCC] py-2 px-6 rounded-[31px]"
+              >
+                Business strategy
+              </button>
+              <button
+                class="text-[#A8BCCC] btn bg-transparent border-solid font-bold border-[1px] hover:bg-white hover:text-[#F58A07] hover:border-white duration-500 border-[#A8BCCC] py-2 px-6 rounded-[31px]"
+              >
+                Digitalization
+              </button>
+              <button
+                class="text-[#A8BCCC] btn bg-transparent border-solid font-bold border-[1px] hover:bg-white hover:text-[#F58A07] hover:border-white duration-500 border-[#A8BCCC] py-2 px-6 rounded-[31px]"
+              >
+                Risk assessment
+              </button>
+            </div>
+            <div
+              class="flex lg:items-start items-center lg:flex-row flex-col-reverse gap-10 justify-between mt-[80px]"
+            >
+              <div class="flex-flex-col max-w-[540px]">
+                <h2
+                  class="max-w-[730px] font-bold md:leading-[56px] text-center md:text-start text-[30px] md:text-[48px] text-[#1D3444]"
+                >
+                  Helping clients with research and strategy for their business
+                </h2>
+                <p
+                  class="max-w-[500px] text-[14px] text-paragrph text-center md:text-start sm:text-[18px] sm:leading-7 mt-[25px]"
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Curabitur sit amet eros blandit, hendrerit elit et, mattis
+                  purus. Vivamus commodo suscipit tellus et pellentesque.
+                </p>
+                <p
+                  class="text-[14px] max-w-[500px] text-paragrph text-center md:text-start sm:text-[18px] sm:leading-7 mt-[20px]"
+                >
+                  Mattis purus. Vivamus commodo suscipit tellus et pellent.
+                  Curabitur sit amet eros blan esque.
+                </p>
+                <img
+                  src="./images/home_images/See all.svg"
+                  alt=""
+                  class="cursor-pointer mt-[40px] mx-auto md:mx-0"
+                />
+              </div>
+              <img src="./images/home_images/service.svg" alt="servise " />
+            </div>
+          </div>
+          <img
+            src="./images/home_images/Ribbon.svg"
+            alt="Ribbon"
+            class="w-[179px] absolute right-[-15px] top-[-15px] hidden md:block"
+          />
+        </div>
+      </section>
+      <section id="CTA" class="grid grid-cols-1 md:grid-cols-2">
+        <div
+          class="bg-ctaBg w-full h-[450px] sm:h-[518px] bg-no-repeat bg-center"
+        ></div>
+        <div class="bg-button grid py-[70px] px-5 md:p-5">
+          <div class="place-self-center">
+            <h2
+              class="text-white text-center md:text-start text-[24px] sm:text-[48px] leading-7 sm:leading-[56px] max-w-[532px] font-bold"
+            >
+              Energy of a start-up combined with 30 years of experience.
+            </h2>
+            <div class="flex justify-center md:justify-start">
+              <button
+                class="bg-white btn1 hover:bg-button hover:text-white duration-500 border-[1px] border-solid hover:border-white text-button py-[19px] px-[32px] font-bold text-[16px] rounded-[31px] mt-[40px]"
+              >
+                See Job Vacancies
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="video" class="py-[128px]">
+        <div
+          class="container mx-auto px-5 grid grid-cols-1 lg:grid-cols-2 items-center gap-6"
+        >
+          <div class="flex flex-col items-center lg:items-start">
+            <h2
+              class="md:text-[48px] text-[30px] text-center lg:text-start font-bold md:leading-[56px] max-w-[550px] text-[#0D1317]"
+            >
+              Finsweet was a dream to work with
+            </h2>
+            <p
+              class="text-paragrph max-w-[550px] text-center lg:text-start md:text-[18px] md:leading-[30px] font-semibold mt-6 mb-10"
+            >
+              Maecenas efficitur scelerisque lorem, et varius lacus tincidunt
+              vel. Pellentesque a arcu vitae diam dapibus mattis vel vel orci.
+              Vivamus eleifend nec felis vel auctor.
+            </p>
+            <div class="flex items-center gap-6">
+              <img src="./images/home_images/video profil.svg" alt="Profil" />
+              <div class="flex flex-col">
+                <h4 class="text-[24px] font-semibold leading-9 text-[#063255]">
+                  Chikelu Neo
+                </h4>
+                <h5 class="text-[18px] font-semibold leading-7 text-[#F58A07]">
+                  CEO at MazeAI
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="relative mt-10 lg:mt-0 flex justify-center">
+            <img
+              src="./images/home_images/video.svg"
+              alt="img"
+              class="w-full lg:w-[620px]"
+            />
+            <img
+              src="./images/home_images/Play Icon.svg"
+              alt="Play icon"
+              class="absolute bottom-10 left-10 md:w-[160px] w-[100x] cursor-pointer"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section id="latest" class="py-[96px] bg-heroBg">
+        <div class="container mx-auto px-5">
+          <h2
+            class="md:text-[48px] text-[34px] font-bold leading-[56px] text-[#0D1317]"
+          >
+            Latest Blog & News
+          </h2>
+          <div class="grid lg:grid-cols-3 grid-cols-1 gap-10 mt-[64px]">
+            <div
+              class="card rounded-b-[20px] rounded-t-[35px] bg-white duration-300 hover:shadow-2xl pb-8"
+            >
+              <img
+                src="./images/home_images/help-1.svg"
+                alt="img"
+                class="w-full"
+              />
+              <h4
+                class="text-[24px] text-center sm:text-start px-5 font-medium leading-6 mt-[33px]"
+              >
+                Business strategy
+              </h4>
+              <p
+                class="text-paragrph px-5 text-center sm:text-start text-[16px] leading-7 font-medium mt-[17px] mb-[24px]"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur sit amet eros blandit, hendrerit elit et,
+              </p>
+              <img
+                src="./images/home_images/Learn more.svg"
+                alt="lean more"
+                class="cursor-pointer px-5 mx-auto sm:mx-0"
+              />
+            </div>
+            <div
+              class="card rounded-b-[20px] rounded-t-[35px] bg-white duration-300 hover:shadow-2xl pb-8"
+            >
+              <img
+                src="./images/home_images/help-2.svg"
+                alt="img"
+                class="w-full"
+              />
+              <h4
+                class="text-[24px] text-center sm:text-start px-5 font-medium leading-6 mt-[33px]"
+              >
+                Digitalization
+              </h4>
+              <p
+                class="text-paragrph text-center sm:text-start px-5 text-[16px] leading-7 font-medium mt-[17px] mb-[24px]"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur sit amet eros blandit, hendrerit elit et,
+              </p>
+              <img
+                src="./images/home_images/Learn more.svg"
+                alt="lean more"
+                class="cursor-pointer px-5 mx-auto sm:mx-0"
+              />
+            </div>
+            <div
+              class="card rounded-b-[20px] rounded-t-[35px] bg-white duration-300 hover:shadow-2xl pb-8"
+            >
+              <img
+                src="./images/home_images/help-3.svg"
+                alt="img"
+                class="w-full"
+              />
+              <h4
+                class="text-[24px] text-center sm:text-start px-5 font-medium leading-6 mt-[33px]"
+              >
+                Risk assessment
+              </h4>
+              <p
+                class="text-paragrph text-center sm:text-start px-5 text-[16px] leading-7 font-medium mt-[17px] mb-[24px]"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur sit amet eros blandit, hendrerit elit et,
+              </p>
+              <img
+                src="./images/home_images/Learn more.svg"
+                alt="lean more"
+                class="cursor-pointer px-5 mx-auto sm:mx-0"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="footer" class="bg-[#063255] py-[80px] relative">
+        <div
+          class="container mx-auto px-5 flex md:gap-10 gap-[50px] flex-wrap flex-col md:flex-row items-start justify-between"
+        >
+          <div class="flex flex-col max-w-[350px]">
+            <a href="./index.html">
+              <img src="./images/home_images/footer logo.svg" alt="Logo" />
+            </a>
+            <h3
+              class="sm:text-[36px] text-[24px] text-white font-bold sm:leading-[44px] my-8"
+            >
+              Bespoke software solutions
+            </h3>
+            <div class="flex items-center gap-4">
+              <a href="https://www.facebook.com/?locale=ru_RU" target="_blank">
+                <img src="./images/home_images/facebook.svg" alt="Facebook" />
+              </a>
+              <a href="https://www.youtube.com/" target="_blank">
+                <img src="./images/home_images/youtube.svg" alt="You Tube" />
+              </a>
+              <a href="https://www.instagram.com/" target="_blank">
+                <img src="./images/home_images/instagram.svg" alt="Instagram" />
+              </a>
+              <a href="https://twitter.com/i/flow/login">
+                <img src="./images/home_images/twitter.svg" alt="Twitter" />
+              </a>
+            </div>
+          </div>
+          <div class="flex flex-col">
+            <h6 class="text-white text-[18px] leading-7 font-bold">Company</h6>
+            <ul class="flex flex-col gap-4 mt-6">
+              <li>
+                <a
+                  href="./pages/about_us.html"
+                  class="text-[16px] font-semibold leading-6 text-white"
+                  >About Us</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./pages/careers_inner.html"
+                  class="text-[16px] font-semibold leading-6 text-white"
+                  >Careers inner</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./pages/blog_inner.html"
+                  class="text-[16px] font-semibold leading-6 text-white"
+                  >Blog inner</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./pages/services.html"
+                  class="text-[16px] font-semibold leading-6 text-white"
+                  >Services</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="flex flex-col">
+            <h6 class="text-white text-[18px] leading-7 font-bold">Connect</h6>
+            <ul class="flex flex-col gap-4 mt-6">
+              <li>
+                <a
+                  href="#"
+                  class="text-[16px] font-semibold leading-6 text-white"
+                  >hi@finsweet.com</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-[16px] font-semibold leading-6 text-white"
+                  >+(123) 456-7890</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="flex flex-col">
+            <h6 class="text-white text-[18px] leading-7 font-bold">
+              Join Newsletter
+            </h6>
+            <form class="flex flex-col gap-4 mt-6">
+              <input
+                type="email"
+                placeholder="Type email here"
+                required
+                class="px-[32px] w-[340px] h-[54px] bg-white rounded-[31px] outline-none placeholder:text-[16px] placeholder:text-[#9C9C9C] placeholder:font-bold"
+              />
+              <button
+                type="submit"
+                class="text-white text-[18px] font-bold bg-button hover:bg-white border-[2px] border-solid border-button hover:border-button hover:text-button duration-500 w-[156px] rounded-[31px] h-[54px]"
+              >
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+        <div
+          class="container mx-auto px-5 flex md:flex-row flex-col gap-3 items-center justify-between mt-[80px]"
+        >
+          <h4 class="text-[16px] font-semibold text-white leading-6">
+            © All rights reserved – Finsweet
+          </h4>
+          <ul class="flex items-center gap-8">
+            <li>
+              <a
+                href="./pages/privacy_policy.html"
+                class="text-[16px] font-semibold text-white leading-6"
+                >Privacy Policy</a
+              >
+            </li>
+            <li class="text-[16px] font-semibold text-white leading-6">
+              Terms & Conditions
+            </li>
+          </ul>
+        </div>
+        <img
+          src="./images/home_images/Shape Left.svg"
+          alt=""
+          class="absolute bottom-0 left-0 hidden xl:block"
+        />
+        <img
+          src="./images/home_images/Shape Right.svg"
+          alt=""
+          class="absolute bottom-0 right-0 top-[38px] hidden xl:block"
+        />
+      </section>
+      <a
+        href="#"
+        id="backtop"
+        style="bottom: 10px"
+        class="no-underline text-[24px] font-extrabold bg-white shadow-2xl text-[#333] w-[40px] h-[40px] flex items-center justify-center rounded-[50%] fixed right-5 bottom-[-50px] cursor-pointer z-50 duration-300"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="m6.293 13.293 1.414 1.414L12 10.414l4.293 4.293 1.414-1.414L12 7.586z"
+          ></path>
+        </svg>
+      </a>
+    </footer>
     <script src="./js/main.js"></script>
   </body>
 </html>

@@ -4,12 +4,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        heroBg: "rgba(220, 234, 245, 1)",
+        heroBg: "#DCEAF5",
         button: "rgba(245, 138, 7, 1)",
         paragrph: "rgba(91, 91, 91, 1)",
       },
       backgroundImage: {
         "bx-menu": "url('/images/home_images/bx-menu.svg')",
+        ctaBg: "url('/images/home_images/CTA-bg.svg')",
       },
       fontFamily: {
         poppins: "Poppins",
