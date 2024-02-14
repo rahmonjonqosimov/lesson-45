@@ -1,0 +1,52 @@
+* {
+  scroll-behavior: smooth;
+}
+.dark {
+  background: rgb(86, 83, 83);
+}
+
+.dark * {
+  color: #ffffff !important;
+}
+.dark header {
+  background: rgb(148, 143, 143);
+}
+.dark #nav-items {
+  background: rgb(148, 143, 143);
+}
+.dark #hero {
+  background: rgb(148, 143, 143);
+}
+.dark #feaures {
+  background: rgb(148, 143, 143);
+}
+.dark #service div {
+  background: rgb(148, 143, 143);
+}
+.dark #latest {
+  background: rgb(148, 143, 143);
+}
+.dark #footer {
+  background: rgb(86, 83, 83);
+}
+.dark .card {
+  background: rgb(97, 92, 92);
+}
+.dark .card:hover {
+  background: rgb(97, 92, 92);
+}
+.dark .btn:hover {
+  color: black !important;
+}
+.dark .btn1 {
+  color: black !important;
+}
+.dark .btn1:hover {
+  color: white !important;
+}
+.dark #light-dark {
+  fill: white !important;
+}
+.dark input {
+  color: #000 !important;
+}
