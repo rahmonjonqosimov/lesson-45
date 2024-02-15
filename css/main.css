@@ -673,12 +673,21 @@ video {
   margin-bottom: 2rem;
 }
 
+.my-\[40px\] {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
 .mb-10 {
   margin-bottom: 2.5rem;
 }
 
 .mb-4 {
   margin-bottom: 1rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
 }
 
 .mb-\[128px\] {
@@ -703,6 +712,10 @@ video {
 
 .mb-\[40px\] {
   margin-bottom: 40px;
+}
+
+.mb-\[48px\] {
+  margin-bottom: 48px;
 }
 
 .mb-\[64px\] {
@@ -735,6 +748,10 @@ video {
 
 .ml-\[40px\] {
   margin-left: 40px;
+}
+
+.mr-\[200px\] {
+  margin-right: 200px;
 }
 
 .mt-10 {
@@ -813,6 +830,10 @@ video {
   margin-top: 48px;
 }
 
+.mt-\[50px\] {
+  margin-top: 50px;
+}
+
 .mt-\[60px\] {
   margin-top: 60px;
 }
@@ -821,20 +842,16 @@ video {
   margin-top: 64px;
 }
 
+.mt-\[76px\] {
+  margin-top: 76px;
+}
+
 .mt-\[78px\] {
   margin-top: 78px;
 }
 
 .mt-\[80px\] {
   margin-top: 80px;
-}
-
-.mb-\[48px\] {
-  margin-bottom: 48px;
-}
-
-.mb-6 {
-  margin-bottom: 1.5rem;
 }
 
 .block {
@@ -889,6 +906,10 @@ video {
   width: 1.5rem;
 }
 
+.w-\[100\%\] {
+  width: 100%;
+}
+
 .w-\[100x\] {
   width: 100x;
 }
@@ -935,6 +956,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.max-w-\[179px\] {
+  max-width: 179px;
 }
 
 .max-w-\[264px\] {
@@ -989,6 +1014,10 @@ video {
   max-width: 620px;
 }
 
+.max-w-\[640px\] {
+  max-width: 640px;
+}
+
 .max-w-\[720px\] {
   max-width: 720px;
 }
@@ -1005,8 +1034,8 @@ video {
   max-width: 752px;
 }
 
-.max-w-\[\] {
-  max-width: ;
+.max-w-\[842px\] {
+  max-width: 842px;
 }
 
 .-translate-x-full {
@@ -1024,6 +1053,10 @@ video {
 
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.flex-row {
+  flex-direction: row;
 }
 
 .flex-col {
@@ -1092,6 +1125,10 @@ video {
 
 .gap-\[24px\] {
   gap: 24px;
+}
+
+.gap-\[30px\] {
+  gap: 30px;
 }
 
 .gap-\[40px\] {
@@ -1194,6 +1231,10 @@ video {
   background-color: #C1E4FF4D;
 }
 
+.bg-\[\#D2DAED2B\] {
+  background-color: #D2DAED2B;
+}
+
 .bg-\[\#F58A071A\] {
   background-color: #F58A071A;
 }
@@ -1264,6 +1305,11 @@ video {
   padding-right: 1.5rem;
 }
 
+.px-\[15px\] {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .px-\[17px\] {
   padding-left: 17px;
   padding-right: 17px;
@@ -1272,6 +1318,11 @@ video {
 .px-\[32px\] {
   padding-left: 32px;
   padding-right: 32px;
+}
+
+.px-\[40px\] {
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .py-10 {
@@ -1294,9 +1345,19 @@ video {
   padding-bottom: 100px;
 }
 
+.py-\[110px\] {
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+
 .py-\[128px\] {
   padding-top: 128px;
   padding-bottom: 128px;
+}
+
+.py-\[15px\] {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .py-\[17px\] {
@@ -1319,6 +1380,11 @@ video {
   padding-bottom: 48px;
 }
 
+.py-\[50px\] {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 .py-\[70px\] {
   padding-top: 70px;
   padding-bottom: 70px;
@@ -1334,11 +1400,6 @@ video {
   padding-bottom: 96px;
 }
 
-.py-\[110px\] {
-  padding-top: 110px;
-  padding-bottom: 110px;
-}
-
 .pb-8 {
   padding-bottom: 2rem;
 }
@@ -1351,6 +1412,10 @@ video {
   padding-bottom: 18px;
 }
 
+.pb-\[200px\] {
+  padding-bottom: 200px;
+}
+
 .pb-\[58px\] {
   padding-bottom: 58px;
 }
@@ -1361,6 +1426,10 @@ video {
 
 .pl-5 {
   padding-left: 1.25rem;
+}
+
+.pl-\[20px\] {
+  padding-left: 20px;
 }
 
 .pl-\[32px\] {
@@ -1439,6 +1508,10 @@ video {
   font-size: 36px;
 }
 
+.text-\[40px\] {
+  font-size: 40px;
+}
+
 .text-\[44px\] {
   font-size: 44px;
 }
@@ -1453,14 +1526,6 @@ video {
 
 .text-\[64px\] {
   font-size: 64px;
-}
-
-.text-\[40px\] {
-  font-size: 40px;
-}
-
-.text-\[50px\] {
-  font-size: 50px;
 }
 
 .font-\[400\] {
@@ -1517,6 +1582,10 @@ video {
 
 .leading-\[19\.17px\] {
   line-height: 19.17px;
+}
+
+.leading-\[26px\] {
+  line-height: 26px;
 }
 
 .leading-\[28px\] {
@@ -1621,14 +1690,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-\[\] {
-  color: ;
-}
-
-.text-\[16p\] {
-  color: 16p;
 }
 
 .no-underline {
@@ -2011,6 +2072,10 @@ video {
 
   .md\:text-start {
     text-align: start;
+  }
+
+  .md\:font-poppins {
+    font-family: Poppins;
   }
 
   .md\:text-\[18px\] {
